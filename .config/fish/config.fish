@@ -1,9 +1,9 @@
 set fish_greeting
 
-starship init fish | source
-
-export PATH=/usr/bin:$PATH
+export PATH=/usr/bin:$PATH:/usr/local/bin
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
+
+starship init fish | source
 
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias pfetch="curl -s https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch | sh"
