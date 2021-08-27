@@ -1,7 +1,6 @@
 set fish_greeting
 
-export PATH=/usr/bin:$PATH:/usr/local/bin:/home/ranieri/.local/bin
-export DOCKER_HOST=unix:///run/user/1000/docker.sock
+export PATH=/usr/bin:$PATH:/usr/local/bin:/home/ranieri/.local/bin:/usr/local/sbin
 
 starship init fish | source
 
