@@ -43,5 +43,6 @@ trim_at = ".companyname.com"
 [shell]
 fish_indicator = "🐟"
 bash_indicator = "🦬"
+zsh_indicator = "🇿"
 unknown_indicator = "mystery shell"
 disabled = false

@@ -1,7 +1,24 @@
-alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
-alias pfetch="curl -s https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch | sh"
-alias grub-update="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
-alias sort-gnome-menu="gsettings reset org.gnome.shell app-picker-layout"
-alias install-starship="sh -c '(curl -fsSL https://starship.rs/install.sh)' | sh"
+# DNF
+alias install="sudo dnf install"
+alias upgrade="sudo dnf upgrade"
+alias search="dnf search"
 alias yeet="sudo dnf remove"
-alias fish_config="nvim $HOME/.config/fish/config.fish"
+alias autoyeet="sudo dnf autoremove"
+
+# DOTFILES
+alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+
+# REMOTE SCRIPTS
+alias pfetch="curl -s https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch | sh"
+alias neofetch="curl -s https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash"
+
+# FISH
+alias fish-config="nvim $HOME/.config/fish/config.fish"
+
+# STARSHIP PROMPT
+alias starship-install="curl -s https://starship.rs/install.sh | sh"
+
+# GNOME
+alias sort-gnome-menu="gsettings reset org.gnome.shell app-picker-layout"
+
+alias grub-update="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
