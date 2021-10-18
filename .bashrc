@@ -3,6 +3,5 @@ if [ -f /etc/bashrc ]; then
 fi
 
 source $HOME/.profile
-source $HOME/.alias
 
 eval "$(starship init bash)"
