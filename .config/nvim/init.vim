@@ -8,10 +8,12 @@ set expandtab
 
 call plug#begin('~/.config/nvim/plugged')
 
-Plug 'dracula/vim'
 Plug 'vim-airline/vim-airline'
 Plug 'lervag/vimtex'
+Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'neovim/nvim-lspconfig'
 
 call plug#end()
 
-colorscheme dracula
+let g:vimtex_view_method = 'zathura'
