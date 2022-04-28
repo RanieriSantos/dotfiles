@@ -7,8 +7,6 @@ alias autoyeet="sudo dnf autoremove"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias editor="$EDITOR"
-alias pfetch="curl -s https://raw.githubusercontent.com/dylanaraps/pfetch/master/pfetch | sh"
-alias neofetch="curl -s https://raw.githubusercontent.com/dylanaraps/neofetch/master/neofetch | bash"
 alias fish-config="$EDITOR $HOME/.config/fish/config.fish"
 alias grub-update="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
 alias starship-install="curl -s https://starship.rs/install.sh | sh"
