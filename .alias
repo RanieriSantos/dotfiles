@@ -11,7 +11,9 @@ alias starship-install="curl -s https://starship.rs/install.sh | sh"
 
 alias free="free -wh --si"
 alias l="ls"
-alias la="ls -la"
+alias la="ls -lah"
+alias df="duf"
+alias top="btop"
 
 alias wttr="curl https://wttr.in/"
 alias wttr_v2="curl https://v2.wttr.in/"
