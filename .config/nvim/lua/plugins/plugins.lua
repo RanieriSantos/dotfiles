@@ -5,4 +5,7 @@ return require('packer').startup(function()
    use 'kyazdani42/nvim-web-devicons'
    use 'kyazdani42/nvim-tree.lua'
    use 'romgrk/barbar.nvim'
+   use 'neovim/nvim-lspconfig'
+   use 'f-person/git-blame.nvim'
+   use 'ellisonleao/glow.nvim'
 end)
