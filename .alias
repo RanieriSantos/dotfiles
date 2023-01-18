@@ -1,9 +1,8 @@
-# DNF
-alias install="sudo dnf install"
-alias upgrade="sudo dnf upgrade"
-alias search="dnf search"
-alias yeet="sudo dnf remove"
-alias autoyeet="sudo dnf autoremove"
+export PKM="zypper"
+alias install="sudo $PKM install"
+alias upgrade="sudo $PKM dup"
+alias search="$PKM search"
+alias yeet="sudo $PKM remove --clean-deps"
 
 alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias grub-update="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
@@ -12,8 +11,16 @@ alias starship-install="curl -s https://starship.rs/install.sh | sh"
 alias free="free -wh --si"
 alias l="ls"
 alias la="ls -lah"
-alias df="duf"
-alias top="btop"
+alias bye="sudo poweroff"
+
+alias v="$EDITOR"
+alias tm="btop"
+alias pf="sudo"
+
+alias ga="git add"
+alias gc="git commit -m"
+alias gpush="git push"
+alias gpull="git pull"
 
 alias wttr="curl https://wttr.in/"
 alias wttr_v2="curl https://v2.wttr.in/"
