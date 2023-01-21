@@ -1,6 +1,6 @@
 export PKM="zypper"
-alias install="sudo $PKM install"
-alias upgrade="sudo $PKM dup"
+alias in="sudo $PKM install"
+alias up="sudo $PKM dup"
 alias search="$PKM search"
 alias yeet="sudo $PKM remove --clean-deps"
 
