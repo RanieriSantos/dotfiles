@@ -4,7 +4,7 @@ alias up="sudo $PKM dup"
 alias search="$PKM search"
 alias yeet="sudo $PKM remove --clean-deps"
 
-alias dotfiles="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias .f="git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias grub-update="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
 alias starship-install="curl -s https://starship.rs/install.sh | sh"
 
