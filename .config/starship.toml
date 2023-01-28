@@ -46,3 +46,6 @@ bash_indicator = "🦬"
 zsh_indicator = "🇿"
 unknown_indicator = "mystery shell"
 disabled = false
+
+[os]
+disabled = false
