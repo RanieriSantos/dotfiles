@@ -49,3 +49,6 @@ disabled = false
 
 [os]
 disabled = false
+
+[os.symbols]
+Fedora = "[](#51a2da) " 
