@@ -51,4 +51,5 @@ disabled = false
 disabled = false
 
 [os.symbols]
-Fedora = "[](#51a2da) " 
+Fedora = "[](#51a2da) "
+Ubuntu = "[](#E95420) "
