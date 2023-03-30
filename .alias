@@ -38,3 +38,5 @@ alias neofetch="curl -s https://raw.githubusercontent.com/dylanaraps/neofetch/ma
 alias pc="podman-compose"
 alias pcu="podman-compose up -d"
 alias pcd="podman-compose down"
+alias pcb="podman-compose build"
+alias pce="podman-compose exec"
