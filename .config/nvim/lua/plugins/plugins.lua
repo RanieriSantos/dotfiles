@@ -8,4 +8,5 @@ return require('packer').startup(function()
    use 'neovim/nvim-lspconfig'
    use 'f-person/git-blame.nvim'
    use 'ellisonleao/glow.nvim'
+   use "williamboman/mason.nvim"
 end)
