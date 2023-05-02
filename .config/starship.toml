@@ -53,3 +53,5 @@ disabled = false
 [os.symbols]
 Fedora = "[](#51a2da) "
 Ubuntu = "[](#E95420) "
+SUSE = "[ ](#73ba25)"
+openSUSE = "[ ](#73ba25)"
