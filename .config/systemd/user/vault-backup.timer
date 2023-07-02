@@ -2,7 +2,7 @@
 Description=Backup keepassxc vault
 
 [Timer]
-OnCalendar=hourly
+OnCalendar=weekly
 Persistent=true
 
 [Install]
