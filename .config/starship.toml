@@ -48,7 +48,7 @@ unknown_indicator = "mystery shell"
 disabled = false
 
 [os]
-disabled = false
+disabled = true
 
 [os.symbols]
 Fedora = "[ ](#51a2da) "
