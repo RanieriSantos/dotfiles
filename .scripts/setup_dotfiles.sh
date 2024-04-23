@@ -1,7 +1,7 @@
 #!/bin/sh
 
 DOTFILES_DIR="$HOME/.dotfiles"
-REPO_LINK="git@github.com:RanieriSantos/dotfiles.git"
+REPO_LINK="git@gitlab.com:RanieriSantos/dotfiles.git"
 
 alias GIT="git --git-dir=$DOTFILES_DIR --work-tree=$HOME"
 
