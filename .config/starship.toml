@@ -1,7 +1,5 @@
 add_newline = false
-format = """
-$all
-🍺 """
+format = """$all"""
 
 [battery]
 disabled = true
@@ -39,19 +37,3 @@ disabled = false
 format = "on [$hostname](red) "
 ssh_only = true
 trim_at = ".companyname.com"
-
-[shell]
-fish_indicator = "🐟"
-bash_indicator = "🦬"
-zsh_indicator = "🇿"
-unknown_indicator = "mystery shell"
-disabled = false
-
-[os]
-disabled = true
-
-[os.symbols]
-Fedora = "[ ](#51a2da) "
-Ubuntu = "[ ](#E95420) "
-SUSE = "[ ](#73ba25)"
-openSUSE = "[ ](#73ba25)"
