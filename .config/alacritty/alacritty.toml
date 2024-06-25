@@ -1,0 +1,11 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+
+[window]
+opacity = 0.9
+blur = true
+
+[font]
+normal = { family = "IosevkaTerm NFM", style = "Regular" }
+bold = { family = "IosevkaTerm NFM", style = "Bold" }
+italic = { family = "IosevkaTerm NFM", style = "Italic" }
+bold_italic = { family = "IosevkaTerm NFM", style = "Bold Italic" }
